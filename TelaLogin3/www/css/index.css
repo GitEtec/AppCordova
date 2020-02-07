@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+
+}
+*:focus{
+    outline: none;  
+}
+.hidden{
+    display: none;
+}
+.page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+}
+.navbar{
+    background:#7070a1;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    border-bottom: #fcfcfc;
+    
+    
+    text-transform: uppercase;
+}
+.navbar span{
+    position: relative;
+    font-size: 17px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btnCad{
+    position: fixed;
+    width: 100%;
+    padding: 20px ;
+    bottom: 0;
+    border: 0;
+    background: #d1ccc0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #807a7a;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    background: #ffffff;
+
+}
+ul li{
+    padding: 25px 5px;
+    display: block; 
+    border-bottom: 1px solid #b9abab;
+}
+#telaLogin{
+    background: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.panel-login{
+    position: relative;
+    width: 60%;
+    background: transparent;
+    margin: 15px 60px ;
+    padding: 15px 2%;
+    top: 165px;
+    left: 9px;
+    
+}
+.f-login {
+    width: 80%;
+    margin-bottom: 50px;
+    padding:8px 5%;
+    border: 3px solid #b9abab;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 2%;
+    background: transparent;
+    
+    text-transform: uppercase;
+}
+.btnLogin{
+    border: 1 solid #b9abab;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: #807a7a;
+    
+}   
